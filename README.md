@@ -23,6 +23,12 @@ Discord — это платформа для общения, предназна�
 - более 29 млн уникальных пользователей в день (DAU) [[1]](https://helplama.com/discord-statistics/)
 - Среднее время посещение - 12 минут [[2]](https://pro.similarweb.com/#/digitalsuite/websiteanalysis/overview/website-performance/*/999/1m?webSource=Total&key=discord.com)
 
+#### Целевая аудитория
+- Геймеры
+- Студенты
+- Профессиональные сообщества
+- Фандомы
+и т.д.
 
 #### Местоположение аудитории [[2]](https://pro.similarweb.com/#/digitalsuite/websiteanalysis/overview/website-performance/*/999/1m?webSource=Total&key=discord.com)
 ![location](./images/locations.png)
