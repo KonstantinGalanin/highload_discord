@@ -24,7 +24,6 @@ Discord — это платформа для общения, предназна�
 - Более 850 миллионов сообщений в день, 25 миллионов из них сделаны с мобильного приложения [[3]](https://venturebeat.com/business/discord-crosses-250-million-users-as-it-hits-4-year-anniversary/)
 - Рекордное кол-во одновременных пользователей - 8.2 млн человек[[4]](https://www.cloudwards.net/discord-statistics/)
 - 4 млрд минут голосовых разговоров в день [[5]](https://findweb3.com/posts/discord-stats)
-- Более 28,000 сообществ
 - 90% сообществ имеет менее 15 участников [[4]](https://www.cloudwards.net/discord-statistics/)
 - Самое большое сообщество - 571,000 участников [[6]](https://www.businessofapps.com/data/discord-statistics/)
 - 590 млн посещений в месяц [[2]](https://pro.similarweb.com/#/digitalsuite/websiteanalysis/overview/website-performance/*/999/1m?webSource=Total&key=discord.com)
