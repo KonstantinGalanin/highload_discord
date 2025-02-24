@@ -26,6 +26,7 @@ Discord — это платформа для общения, предназна�
 - 4 млрд минут голосовых разговоров в день [[5]](https://findweb3.com/posts/discord-stats)
 - 90% сообществ имеет менее 15 участников [[4]](https://www.cloudwards.net/discord-statistics/)
 - Самое большое сообщество - 571,000 участников [[6]](https://www.businessofapps.com/data/discord-statistics/)
+- более 19 миллионов сообществ [[8]](https://thesmallbusinessblog.com/how-many-discord-servers-are-there/)
 - 590 млн посещений в месяц [[2]](https://pro.similarweb.com/#/digitalsuite/websiteanalysis/overview/website-performance/*/999/1m?webSource=Total&key=discord.com)
 
 #### Целевая аудитория
@@ -150,3 +151,4 @@ Discord — это платформа для общения, предназна�
 5. https://findweb3.com/posts/discord-stats
 6. https://www.businessofapps.com/data/discord-statistics/
 7. https://habr.com/ru/articles/423171/
+8. https://thesmallbusinessblog.com/how-many-discord-servers-are-there/
