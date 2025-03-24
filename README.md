@@ -284,7 +284,7 @@ Discord — это платформа для общения, предназна�
 | channels                  |               PostgreSQL | server_id |
 | users |                 PostgreSQL |  username |
 | channel_messages                  |   ScyllaDB | user_id, сreated_at |
-| attachments                  |   S3 | id, message_id |
+| attachments                  |   S3 | - |
 | voice_members                  |   Redis | - |
 
 - PostgreSQL - реляционная БД для структурированных данных, в которой важны связи, целостность и сложные запросы
