@@ -309,10 +309,10 @@ RPS на чтение сообщений = 184,733,333 / 86,400 = 2,138 запр
 | Таблица               | СУБД | Индексы  |
 | ---------------------- | -------------------------: | -------------------------: |
 | servers |                  PostgreSQL | title|
-| server_users             | PostgreSQL        | server_id, user_id|
+| server_users             | PostgreSQL        | server_id <br> user_id|
 | channels                  |               PostgreSQL | server_id |
 | users |                 PostgreSQL |  username |
-| channel_messages                  |   ScyllaDB | user_id, сreated_at |
+| channel_messages                  |   ScyllaDB | {Partition Key = channel_id, Clustering Key = created_at}  |
 | attachments                  | S3 | Организация объектов по директориям |
 | voice_members                  |   Redis | channel_id:{users_id} (ключ - channel_id, значение - сет user_id) <br> users_id:channel_id (ключ - user_id, значение - channel_id) |
 
