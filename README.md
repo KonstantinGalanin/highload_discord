@@ -344,7 +344,7 @@ RPS на чтение сообщений = 184,733,333 / 86,400 = 2,138 запр
 | channels                  |               PostgreSQL | - | master-slave |
 | users |                 PostgreSQL |  - | master-slave |
 | channel_messages                  |   ScyllaDB | автоматически  | автоматически |
-| attachments                  |   S3 | HDFS | Amazon S3 Replication |
+| attachments                  |   S3 | автоматически | Amazon S3 Replication |
 | voice_members                  |   Redis | Redis Cluster | Redis Cluster|
 
 
