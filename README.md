@@ -313,8 +313,8 @@ RPS на чтение сообщений = 184,733,333 / 86,400 = 2,138 запр
 | channels                  |               PostgreSQL | server_id |
 | users |                 PostgreSQL |  username |
 | channel_messages                  |   ScyllaDB | user_id, сreated_at |
-| attachments                  | S3 | - |
-| voice_members                  |   Redis | channel_id:users_id (ключ - channel_id, значение - сет user_id) <br> users_id:channel_id (ключ - user_id, значение - channel_id) |
+| attachments                  | S3 | Организация объектов по директориям |
+| voice_members                  |   Redis | channel_id:{users_id} (ключ - channel_id, значение - сет user_id) <br> users_id:channel_id (ключ - user_id, значение - channel_id) |
 
 - PostgreSQL - реляционная БД для структурированных данных, в которой важны связи, целостность и сложные запросы
 - ScyllaDB - NoSQL БД для хранения данных с частыми операциями записи и чтения, быстрее, чем Cassandra
