@@ -395,7 +395,7 @@ RPS на чтение сообщений = 184,733,333 / 86,400 = 2,138 запр
 | PostgreSQL | Репликация (master-slave) |
 
 ## 10. Схема проекта
-![project scheme](./images/project_scheme2.png)  
+![project scheme](./images/project_scheme3.png)  
 - Auth Service - Аутентификация пользователей
 - User Service - Управление профилями пользователей и пользовательскими настройками.(CRUD-профиля (никнейм, аватар, статус))
 - Server Service - Управление логикой сообществ
