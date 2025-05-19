@@ -395,7 +395,7 @@ RPS на чтение сообщений = 184,733,333 / 86,400 = 2,138 запр
 | PostgreSQL | Репликация (master-slave) |
 
 ## 10. Схема проекта
-![project scheme](./images/project_scheme3.png)  
+![project scheme](./images/project_scheme4.png)  
 - Auth Service - Аутентификация пользователей
 - User Service - Управление профилями пользователей и пользовательскими настройками.(CRUD-профиля (никнейм, аватар, статус))
 - Server Service - Управление логикой сообществ
@@ -440,7 +440,10 @@ Call: 1,041 * 12 * 8 + 233.2 Гбит/с = 233.2 Гбит/с
 | Message | own | 2x6338/16x32GB/2xNVMe4T/2x25Gb/s | 64 | 2 | 241 * 2 = 482$|
 | Attachment | own | 2x6338/16x32GB/2xNVMe4T/2x25Gb/s | 64 | 4 | 241 * 4 = 964$ |
 | Call | own | 2x6338/16x32GB/2xNVMe4T/2x25Gb/s | 64 | 15 | 241 * 15 = 3,615$|
-| Итого ||||| 5421$ |
+| PostgreSQL | own | 2x6338/16x32GB/2xNVMe4T/2x25Gb/s | 64 | 2 | 241 * 2 = 482$|
+| Redis | own | 2x6338/16x32GB/2xNVMe4T/2x25Gb/s | 64 | 2 | 241 * 2 = 482$|
+| ScyllaDB | own | 2x6338/16x32GB/8xNVMe4T/2x25Gb/s | 64 | 2 | 241 * 2 = 11285$|
+| Итого ||||| 18875$ |
 
 
 ## Список источников
